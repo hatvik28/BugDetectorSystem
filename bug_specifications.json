@@ -1,0 +1,28 @@
+[
+    {
+        "id": "B001",
+        "description": "ArrayIndexOutOfBoundsException possible due to accessing array with an invalid index.",
+        "pattern": "numbers\\[(\\d+)\\]"
+    },
+    {
+        "id": "B002", 
+        "description": "Possible Missing Return Statement due to a non-void function not returning a value.",
+        "pattern": "public\\s+(int|float|double|String|boolean|\\w+)\\s+\\w+\\s*\\(.*\\)\\s*\\{"
+        
+    },
+    {
+        "id": "B003",
+        "description": "Potential infinite loop detected: variable 'i' is not incremented inside the loop.",
+        "pattern": "while\\s*\\(.*\\)\\s*\\{"
+    },
+    {
+        "id": "B004",
+        "description": "Method call error: 'printNumber()' method does not exist.",
+        "pattern": "printNumber\\(\\);"
+    },
+    {
+        "id": "B005",
+        "description": "Unused variable: 'unusedVar' is declared but never used.",
+        "pattern": "int\\s+unusedVar\\s*=\\s*\\d+\\s*;"
+    }
+]
