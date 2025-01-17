@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class BuggyCode {
+public class BuggCode {
 
     public static void main(String[] args) {
         // 1. Null Pointer Exception
