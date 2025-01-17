@@ -25,7 +25,7 @@ public class BuggyCode {
             System.out.println("Caught StringIndexOutOfBoundsException: " + e.getMessage());
         }
 
-        System.err.println();
+        System.err.println()
     }
 
 
