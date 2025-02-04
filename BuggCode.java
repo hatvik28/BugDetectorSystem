@@ -5,12 +5,15 @@ public class BuggCode {
 
     public static void main(String[] args) {
 
-        String nullString = null;
-        System.out.println(nullString.length()); 
+        String str = null;
+        int length = str.length();
 
 
         int[] numbers = {1, 2, 3};
         System.out.println(numbers[3]); 
+
+        Object obj = "hello";
+        Integer num = (Integer) obj;
 
 
         int i = 0;
