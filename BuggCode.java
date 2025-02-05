@@ -6,7 +6,7 @@ public class BuggCode {
     public static void main(String[] args) {
 
         String str = null;
-        int length = str.length();
+        int length = (str != null) ? str.length() : 0;
 
 
         int[] numbers = {1, 2, 3};
