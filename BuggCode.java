@@ -19,6 +19,17 @@ public class BuggCode {
         Integer num = (Integer) obj;
 
 
+
+        public class ReturnIssue {
+            public int getValue(int num) {
+                if (num > 10) {
+                    return num * 2;
+                }
+                // Missing return statement for when num <= 10
+            }
+        }
+
+
         
         int i = 0;
         while (i >= 0) { 
