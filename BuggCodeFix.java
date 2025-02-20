@@ -9,8 +9,8 @@ public class BuggCodeFix {
     System.out.println(numbers[2]);
  
     Object obj = "hello";
-    String str = (String) obj;
-    System.out.println(str);
+    String stri = (String) obj;
+    System.out.println(stri);
  
     int i = 0;
     while (i < 10) {
