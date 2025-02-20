@@ -29,3 +29,4 @@ public class BuggCodeFix {
       System.out.println("This code is unreachable!");
     }
   }
+}
