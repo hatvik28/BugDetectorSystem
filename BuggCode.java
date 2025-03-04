@@ -36,10 +36,6 @@ public class BuggCode {
     }
 }
 
-public class Example {
-    public static Integer getNumber(boolean condition) {
-        if (condition) return 10;
-        else return; // Missing return value!
     }
 }
 
