@@ -9,7 +9,7 @@ public class PMDTest {
         // Null assignment leading to potential NullPointerException
         String name = null;
         if (name.equals("PMD")) { // This line can throw a NullPointerException
-            System.out.println("Name matches PMD");
+            System. out.println("Name matches PMD");
         }
 
         // Inefficient string concatenation in a loop
