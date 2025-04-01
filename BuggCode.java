@@ -1,4 +1,3 @@
-
 public class BuggCode {
 
   public static void main(String[] args) {
@@ -7,8 +6,8 @@ public class BuggCode {
     int length = str.length();
     System.out.println(length);
 
-    int[] numbers = { 1, 2, 3 };
-    System.out.println(numbers[3]);
+    int[] numbers = {1, 2, 3};
+    System.out.println(numbers[2]);
 
     Object obj = "hello";
     Integer num = (Integer) obj;
