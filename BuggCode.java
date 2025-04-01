@@ -7,7 +7,7 @@ public class BuggCode {
     int length = str.length();
     System.out.println(length);
 
-    int[] numbers = {1, 2, 3};
+    int[] numbers = { 1, 2, 3 };
     System.out.println(numbers[3]);
 
     Object obj = "hello";
