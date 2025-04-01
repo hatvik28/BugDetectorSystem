@@ -10,7 +10,7 @@ public class BuggCode {
     System.out.println(numbers[2]);
 
     Object obj = "hello";
-    Integer num = (Integer) obj;
+    String str = (String) obj;
 
     int i = 0;
     while (i >= 0) {
