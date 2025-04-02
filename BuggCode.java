@@ -9,9 +9,6 @@ public class BuggCode {
     int[] numbers = {1, 2, 3};
     System.out.println(numbers[2]);
 
-    Object obj = "hello";
-    String str = (String) obj;
-
     int i = 0;
     while (i >= 0) {
       System.out.println("Infinite Loop!");
