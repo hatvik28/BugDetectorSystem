@@ -10,8 +10,9 @@ public class BuggCode {
     System.out.println(numbers[2]);
 
     int i = 0;
-    while (i >= 0) {
-      System.out.println("Infinite Loop!");
+    while (i < 5) {
+      System.out.println("Loop iteration: " + i);
+      i++;
     }
 
     String text = "Buggy";
