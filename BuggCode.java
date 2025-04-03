@@ -16,7 +16,7 @@ public class BuggCode {
     }
 
     String text = "Buggy";
-    System.out.println(text.substring(10));
+    System.out.println(text.substring(0));
 
     if (1 == 2) {
       System.out.println("This code is unreachable!");
