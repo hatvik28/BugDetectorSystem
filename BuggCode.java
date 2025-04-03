@@ -7,7 +7,8 @@ public class BuggCode {
     System.out.println(length);
 
     int[] numbers = {1, 2, 3};
-    System.out.println(numbers[2]);
+    
+    System.out.println(numbers[3]);
 
     int i = 0;
     while (i < 5) {
