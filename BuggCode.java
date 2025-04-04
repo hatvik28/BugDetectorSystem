@@ -12,7 +12,7 @@ public class BuggCode {
   public static void main(String[] args) {
 
     String str = null;
-    System.out.println(str);
+    int length = str.length();
 
     int[] numbers = {1, 2, 3};
      
