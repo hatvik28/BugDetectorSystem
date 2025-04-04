@@ -13,10 +13,7 @@ class Contact {
         this.phoneNumber = phoneNumber;
         this.email = email;
     }
-  
-    int[] numbers = {1, 2, 3};
-     
-    System.out.println(numbers[5]);
+
  
     public String getName() {
         return name;
@@ -40,6 +37,10 @@ public class AddressBook {
     public static void main(String[] args) {
         ArrayList<Contact> contacts = new ArrayList<>();
         Scanner scanner = new Scanner(System.in);
+
+        int[] numbers = {1, 2, 3};
+     
+        System.out.println(numbers[5]);
  
         while (true) {
             System.out.println("\nAddress Book Menu:");
