@@ -11,9 +11,8 @@ public class BuggCode {
 
   public static void main(String[] args) {
 
-    String str = "Hello World";
-    int length = str.length();
-    System.out.println(length);
+    String str = null;
+    System.out.println(str);
 
     int[] numbers = {1, 2, 3};
      
