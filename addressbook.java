@@ -13,6 +13,10 @@ class Contact {
         this.phoneNumber = phoneNumber;
         this.email = email;
     }
+  
+    int[] numbers = {1, 2, 3};
+     
+    System.out.println(numbers[5]);
  
     public String getName() {
         return name;
@@ -49,10 +53,6 @@ public class AddressBook {
  
             int choice = scanner.nextInt();
             scanner.nextLine();  // Consume newline
-
-            int[] numbers = {1, 2, 3};
-     
-            System.out.println(numbers[5]);
     
  
             switch (choice) {
