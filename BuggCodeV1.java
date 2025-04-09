@@ -15,8 +15,12 @@ public class BuggCodeV1 {
       System.out.println("Loop iteration: " + i);
     }
 
-    String text = "Buggy";
-    System.out.println(text.substring(10));
+    final String text = "Buggy";
+    if (text.length() > 10) {
+      System.out.println(text.substring(10));
+    } else {
+      System.out.println("Substring index out of bounds");
+    }
 
     if (1 == 2) {
       System.out.println("This code is unreachable!");
