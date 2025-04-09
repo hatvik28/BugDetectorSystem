@@ -7,11 +7,7 @@ public class BuggCodeV1 {
 
     int[] numbers = {1, 2, 3};
     System.out.println(numbers[2]);
-
-    Object obj = "hello";
-    String str = (String) obj;
-    System.out.println("String value: " + str);
-
+    
     for (int i = 0; i < 5; i++) {
       System.out.println("Loop iteration: " + i);
     }
