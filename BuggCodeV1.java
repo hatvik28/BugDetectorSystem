@@ -7,7 +7,7 @@ public class BuggCodeV1 {
 
     int[] numbers = {1, 2, 3};
     System.out.println(numbers[2]);
-    
+
     for (int i = 0; i < 5; i++) {
       System.out.println("Loop iteration: " + i);
     }
@@ -19,7 +19,8 @@ public class BuggCodeV1 {
       System.out.println("Substring index out of bounds");
     }
 
-    if (1 == 2) {
+    boolean condition = false;
+    if (condition) {
       System.out.println("This code is unreachable!");
     }
   }
