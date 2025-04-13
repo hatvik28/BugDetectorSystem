@@ -25,8 +25,14 @@ public class BuggyCodeV2 {
     System.out.println(text.substring(0)); // Start from the beginning of the string
 
     // 5. Logical Error
-    if (1 == 2) { // Impossible condition
-      System.out.println("This code is unreachable!");
+    boolean isConditionMet = checkCondition();
+    if (isConditionMet) {
+      System.out.println("Condition met!");
     }
+  }
+
+  private static boolean checkCondition() {
+    // Implement the logic to determine the condition
+    return false; // Placeholder return value
   }
 }
