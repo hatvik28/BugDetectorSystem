@@ -15,13 +15,14 @@ public class BuggyCodeV2 {
 
     // 3. Infinite Loop
     int i = 0;
-    while (i >= 0) { // Infinite loop as `i` is never decremented
-      System.out.println("Infinite Loop!");
+    while (i < 8) { // Loop will terminate when i reaches 8
+      System.out.println("Loop iteration: " + i);
+      i++;
     }
 
     // 4. StringIndexOutOfBoundsException
     String text = "Buggy";
-    System.out.println(text.substring(10)); // Index out of range
+    System.out.println(text.substring(0)); // Start from the beginning of the string
 
     // 5. Logical Error
     if (1 == 2) { // Impossible condition
