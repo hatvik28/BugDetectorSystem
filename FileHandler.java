@@ -6,11 +6,10 @@ public class FileHandler {
 
   public void readFile(String filePath) {
     try {
-      // Simulate reading a file
       String content = new String(Files.readAllBytes(Path.of(filePath)));
       System.out.println(content);
     } catch (IOException e) {
-
+      System.err.println("Error reading file: " + e.getMessage());
     }
   }
 
