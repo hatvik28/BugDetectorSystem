@@ -1,4 +1,3 @@
-
 public class BuggyCodeV2 {
 
   public static void main(String[] args) {
@@ -8,7 +7,7 @@ public class BuggyCodeV2 {
 
     // 2. Array Index Out of Bounds
     int[] numbers = {1, 2, 3};
-    System.out.println(numbers[3]); // Accessing index out of bounds
+    System.out.println(numbers[2]); // Access the element at index 2
 
     // 3. Infinite Loop
     int i = 0;
