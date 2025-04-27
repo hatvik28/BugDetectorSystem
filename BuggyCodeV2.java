@@ -11,8 +11,9 @@ public class BuggyCodeV2 {
 
     // 3. Infinite Loop
     int i = 0;
-    while (i >= 0) { // Infinite loop as `i` is never decremented
-      System.out.println("Infinite Loop!");
+    while (i >= 0 && i < 10) { // Added upper bound
+      System.out.println("Loop iteration: " + i);
+      i++; // Increment i to eventually exit the loop
     }
 
     // 4. StringIndexOutOfBoundsException
