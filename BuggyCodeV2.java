@@ -18,7 +18,11 @@ public class BuggyCodeV2 {
 
     // 4. StringIndexOutOfBoundsException
     String text = "Buggy";
-    System.out.println(text.substring(10)); // Index out of range
+    if (text.length() > 10) {
+      System.out.println(text.substring(10));
+    } else {
+      System.out.println("Substring index is out of range.");
+    }
 
     // 5. Logical Error
     if (1 == 2) { // Impossible condition
